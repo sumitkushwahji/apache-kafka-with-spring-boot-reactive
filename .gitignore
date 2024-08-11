@@ -1,1 +1,35 @@
-.idea
+# Kafka logs and data
+kafka-logs/
+kafka-data/
+
+# Zookeeper logs and data
+zookeeper-logs/
+zookeeper-data/
+
+# Kafka and Zookeeper temporary files
+tmp/
+*.pid
+
+# Kafka and Zookeeper configuration files (if you don't want to include them)
+config/*
+!config/*.properties
+
+# Build and IDE files (if using build tools or IDEs)
+*.class
+*.jar
+*.war
+*.zip
+*.tar.gz
+*.iml
+*.project
+*.classpath
+*.settings/
+
+# System-specific files
+.DS_Store
+Thumbs.db
+
+# IDE specific folders
+.idea/
+*.sublime-project
+*.sublime-workspace
